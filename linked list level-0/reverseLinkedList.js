@@ -12,5 +12,5 @@ function reverseLinkedList(head)
         prev = curr;
         curr =temp;
     }
-    return temp;
+    return prev;
 }
